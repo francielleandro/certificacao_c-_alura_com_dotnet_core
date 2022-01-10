@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -64,8 +64,10 @@ namespace certificacao_csharp_roteiro
 
         private static IList<MenuItem> GetMenuItems(){
             return new List<MenuItem>{
-                new MenuItem("Tipos de Valor", typeof(TiposDeValor))              
+                new MenuItem("Tipos de Valor", typeof(TiposDeValor)), 
+                new MenuItem("Tipos Inteiro", typeof(TiposInteiros)) 
             };
         }
     } 
 }
+
