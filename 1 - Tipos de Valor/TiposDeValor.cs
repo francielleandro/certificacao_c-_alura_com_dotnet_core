@@ -25,7 +25,9 @@ namespace certificacao_csharp_roteiro
             Console.WriteLine($"copiaIdade: {copiaIdade}");
 
             int? idade2 = null;
+            Console.WriteLine($"idade2: {idade2}");
             System.Nullable<int> idade3 = null;
+            Console.WriteLine($"idade3: {idade3}");
         }
     }
 }

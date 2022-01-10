@@ -9,6 +9,7 @@ namespace certificacao_csharp_roteiro{
         */
         public void Executar(){
             float idade = 15;
+            Console.WriteLine("idade", idade);
             idade = 15.5f;
             Console.WriteLine($"long.MinValue: {long.MinValue}");
             Console.WriteLine($"long.MaxValue: {long.MaxValue}");
@@ -17,6 +18,7 @@ namespace certificacao_csharp_roteiro{
             float numeroPI = 3.14159f;
             Console.WriteLine($"numeroPI: {numeroPI}");
             double numeroMuitoMaior = 6e100;
+            Console.WriteLine("double 6e100", numeroMuitoMaior);
             Console.WriteLine();
             Console.WriteLine("Operação com int, float e short");
             int x = 3;
