@@ -72,7 +72,8 @@ namespace certificacao_csharp_roteiro
                 new MenuItem("Estruturas", typeof(Estrutura)),
                 new MenuItem("Enumeradores",typeof(Enumeracoes)),
                 // Aula2
-                new MenuItem("Tipos de Referência", typeof(TiposDeReferencia))  
+                new MenuItem("Tipos de Referência", typeof(TiposDeReferencia)),
+                new MenuItem("Classes",typeof(Classes))  
             };
         }
     } 
